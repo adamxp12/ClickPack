@@ -1,0 +1,93 @@
+.top-bar-section ul {
+    margin-top: 60px;
+}
+
+.top-bar .name h1 {
+    line-height: 105px;
+    font-size: 1.7225rem;
+}
+
+.top-bar .name {
+    height: 105px;
+}
+
+.top-bar {
+    height: 105px;
+    line-height: 105px;
+    background: url('img/checkered-pattern.png') repeat scroll 0% 0% #a60600;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: rgba(50, 50, 50, 0.2);
+}
+
+.top-bar-section ul li {
+    background: none;
+}
+
+.stuff-bar {
+    height: 50px;
+    line-height: 50px;
+    background: url('img/checkered-pattern.png') repeat scroll 0% 0% #8A0500;
+    border-bottom: 0.01rem rgba(0,0,0,0.2) solid;
+}
+
+.top-text {
+	color: rgba(255,255,255,1);
+	padding-right: 15px;
+	ont-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.top-button {
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.top-bar input, .top-bar .button, .top-bar button {
+    font-size: default;
+    position: relative;
+    top: 0px;
+}
+
+.title-h1 {
+	color: rgba(125,125,125,0.3);
+}
+
+
+.slide-box {
+	text-align: center;
+	background: rgba(100,100,100,0.5);
+	color: rgba(200,200,200,1);
+	font-size: 17px;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.slide-box h1 {
+	color: rgba(220,220,220,1);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.slider .slide1 {
+	background: url('../img/slide1.png');
+}
+
+.slider .slide2 {
+	background: url('../img/slide2.png');
+}
+
+.slider .slide {
+	height: 500px;
+	padding: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.number {
+	font-size: 50px;
+	text-align: center;
+	color: rgba(155,155,155,0.8);
+}
